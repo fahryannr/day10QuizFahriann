@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detaill"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice Rent Car Kocak"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="19dp"/>
+
+    <TextView
+        android:id="@+id/cartype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="car type: "
+        android:textSize="15dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"/>
+
+
+    <TextView
+        android:id="@+id/outside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="outside city: "
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="18dp"/>
+
+
+    <TextView
+        android:id="@+id/dayofrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day of rent: "
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="18dp"/>
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="discount: "
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="18dp"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total: "
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/cityPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Tambahan Kota: " />
+
+
+
+
+</LinearLayout>

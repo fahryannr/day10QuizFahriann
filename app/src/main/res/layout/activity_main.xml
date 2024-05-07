@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Recent Kocak"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Type"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgPilihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbPajero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pajero"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbAlphard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alphard"/>
+
+        <RadioButton
+            android:id="@+id/rbInnova"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Innova"/>
+
+        <RadioButton
+            android:id="@+id/rbBrio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brio"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Outside City"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgEstimasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbDalamkota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dalam kota"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbLuarkota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luar Kota"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day of Rent"
+        android:layout_marginTop="18dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiltotal"
+        app:boxStrokeColor="#9C27B0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundMode="outline"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTotal"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
